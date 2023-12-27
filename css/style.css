@@ -1,0 +1,42 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:"Open Sans", sans-serif;
+}
+.gradient{
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+#banner-sec{
+	height:40vh;
+	background-image:url(../images/bg-img.jpg);
+	width:100%;
+	background-position:center;
+	background-attachment:fixed;
+}
+h1, p{
+	color:#ffff;
+	text-align:center;
+}
+h1{
+	padding-top:40px;
+}
+p{
+	padding:20px;
+}
+a{
+	text-decoration:none;
+	color:#ffff;
+	border:2px solid #ffff;
+	border-radius:3px;
+	padding:5px;
+	text-align:center;
+	display:block; 
+	margin:0 auto;
+	width:15%;
+}
